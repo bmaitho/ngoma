@@ -1,0 +1,29 @@
+
+
+.playlist-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .playlist-card {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 200px;
+
+  }
+  
+  .playlist-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .playlist-card p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #ffffff;
+  }
+  
+  

@@ -1,0 +1,69 @@
+.container {
+  color: #5db434;
+  background-color: rgb(0, 0, 0);
+  height: 18550px;
+  text-align: center;
+  max-height: max-content;
+  background-image: url('/home/brian/group-project/src/Pages/Music aesthetic.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 600vh;
+}
+
+.NavBar {
+  padding: 15px;
+  color: #8fdd45;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: left;
+}
+
+.NavBar button {
+  padding: 7px;
+  color: #000000;
+  background-color: gray;
+  border-radius: 10px;
+  margin-right: 390px;
+  transition: background-color 0.3s ease; 
+}
+
+.NavBar button:hover {
+  background-color: #801111; 
+}
+
+.form input[type="text"] {
+  width: 800px;
+  height: 40px;
+  font-size: 20px;
+  background-color: gray;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form ::placeholder {
+  color: #8fdd45;
+  font-size: 25px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-align: left;
+  background-color: gray;
+  padding: 10px;
+}
+
+.form button {
+  color: #8fdd45;
+  border-radius: 10px;
+  background-color: gray;
+  padding: 10px;
+  transition: background-color 0.3s ease; 
+}
+
+.form button:hover {
+  background-color: #555; 
+}
+
+.form {
+  border-radius: 20px;
+  padding: 5px;
+}

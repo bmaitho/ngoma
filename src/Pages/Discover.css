@@ -1,0 +1,26 @@
+
+.music-container {
+    background-image: url('/home/brian/group-project/src/Pages/Music aesthetic.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 2000vh; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%; 
+}
+
+.card {
+    width:  500px;
+    height: 500px;
+    background-color: #7c7c7c;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(170, 77, 77, 0.1);
+    overflow: hidden; 
+}
+
+.info {
+    margin-top: 10px;
+}

@@ -1,0 +1,31 @@
+
+
+.home {
+    text-align: center;
+    background-image: url('/home/brian/group-project/src/Pages/Music aesthetic.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.home .text-container {
+    max-width: 50%; 
+    margin: 0 auto; 
+}
+
+.home h3 {
+    font-size: 30px;
+    color: rgb(99, 180, 96);
+    overflow: hidden; 
+    white-space: normal;
+    animation: typing 3s steps(30, end); 
+}
+
+.home h3 span {
+    display:flex; 
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; } 
+}
