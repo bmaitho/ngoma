@@ -1,6 +1,6 @@
 
 .music-container {
-    background-image: url('/home/brian/group-project/src/Pages/Music aesthetic.jpeg'); 
+    background-image: url('src/Pages/Music aesthetic.jpeg'); 
     background-size: cover;
     background-position: center;
     height: 2000vh; 
